@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *reset_to_98 - reset value of n to 98
- *@n - pointer to interger value
- *This function takes a pointer to an integer 'n' and modifies the value
- *Return: n
+ * reset_to_98 - updates the value of the variable
+ * the pointer points to to 98
+ * @n: pointer to the variable to update
  */
 void reset_to_98(int *n)
 {

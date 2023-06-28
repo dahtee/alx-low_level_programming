@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- *print_line - print straight line
- *@n: number of times char should be printed
+ * print_line - draws a straight line in the terminal
+ * @n: number of times the character _ should be printed
  */
 void print_line(int n)
 {
-	if (n < 0)
+	if (n <= 0)
 	{
-		putchar('\n');
-	}
-	else
+		_putchar('\n');
+	} else
 	{
 		int i;
 
@@ -20,4 +19,5 @@ void print_line(int n)
 		}
 		_putchar('\n');
 	}
+
 }
